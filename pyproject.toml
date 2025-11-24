@@ -1,0 +1,22 @@
+[project]
+name = "bit-gym"
+version = "0.1.0"
+description = "A basic gym membership platform that includes crypto payments."
+authors = [{name = "Juan Cortés", email="juang.cortes@outlook.com"}] 
+readme = "README.md"
+license-files = ["LICENSE"]
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.8",
+]
+
+[dependency-groups]
+dev = [
+    "coverage>=7.12.0",
+    "pytest>=9.0.1",
+    "ruff>=0.14.6",
+]
+
+[project.urls]
+Repository = "https://github.com/juangcr/bit-gym"
+
